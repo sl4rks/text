@@ -8,9 +8,9 @@ if not ALLOWED_PLACE_IDS[game.PlaceId] then return end
 
 --== SETTINGS ==--
 getgenv().AutoFireLootPrompts = true
-getgenv().FireRange = 300
+getgenv().FireRange = 900
 getgenv().FireInterval = 0
-getgenv().WalkSpeed = 18 -- constant walk speed
+getgenv().WalkSpeed = 28 -- constant walk speed
 
 --== SERVICES ==--
 local Players = game:GetService("Players")
