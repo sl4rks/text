@@ -8,8 +8,8 @@ if not ALLOWED_PLACE_IDS[game.PlaceId] then return end
 
 --== SETTINGS ==--
 getgenv().AutoFireLootPrompts = true
-getgenv().FireRange = 30
-getgenv().FireInterval = 0
+getgenv().FireRange = 15
+getgenv().FireInterval = 2
 getgenv().WalkSpeed = 18 -- constant walk speed
 
 --== SERVICES ==--
